@@ -1,0 +1,7 @@
+CompileFlags:
+  Add:
+    - -I/home/kkk/code/new-code/Order-Fairness/FairDAG-RL
+    - -I/home/kkk/code/new-code/Order-Fairness/FairDAG-RL/include
+    - -I/home/kkk/code/new-code/Order-Fairness/FairDAG-RL/salticidae/include
+    - -I/tmp/opencode/fairdag-rl-build/include
+    - -I/tmp/opencode/fairdag-rl-build/salticidae/include

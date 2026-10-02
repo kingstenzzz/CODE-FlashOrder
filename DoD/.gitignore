@@ -1,0 +1,43 @@
+CMakeFiles/
+cmake_install.cmake
+CMakeDoxygenDefaults.cmake
+CMakeDoxyfile.in
+CMakeCache.txt
+cmake-build-debug/
+libsecp256k1-prefix/
+/hotstuff-keygen
+/hotstuff-tls-keygen
+libhotstuff.a
+src/*.swo
+src/*.swp
+include/hotstuff/config.h
+*.a
+*.o
+*.la
+*.lo
+*.so
+*.gch
+/Makefile
+/test/Makefile
+/test/test_secp256k1
+/test/test_concurrent_queue
+core
+log*
+
+# 构建目录
+build/
+build-asan/
+build-tsan/
+Testing/
+
+# 本地测试产物（可由 scripts/gen_conf.py 重新生成）
+test-output/
+hotstuff.conf
+hotstuff-sec*.conf
+_ips.txt
+nodes.txt
+*_ips_tmp.txt
+
+# 本地临时结果
+burst_comparison_results.csv
+burst_test_result.txt
